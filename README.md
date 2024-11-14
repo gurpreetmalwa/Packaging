@@ -19,7 +19,10 @@ bash
 Copy code
 git clone https://github.com/yourusername/packaging.git
 cd packaging
-Download the software installers for 7-Zip and Oracle VirtualBox from their official sites and place them in the appropriate directories as specified in the deployment scripts.
+Download the software installers for 7-Zip and Oracle VirtualBox from their official sites.
+Place the downloaded files:
+Main installer files (e.g., 7zSetup.exe for 7-Zip) should go in the Files folder.
+Any support files (e.g., configuration files, dependencies) should go in the Support folder as specified by the deployment scripts.
 Usage
 To deploy a package, run the following command in PowerShell:
 
