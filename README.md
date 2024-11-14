@@ -33,5 +33,17 @@ Copy code
 
 # Example to deploy Oracle VirtualBox package
 .\Deploy-Application.ps1 -DeploymentType "Install" -AppName "Oracle VirtualBox"
+
+To uninstall a package, run:
+
+powershell
+Copy code
+# Example to uninstall 7-Zip package
+.\Deploy-Application.ps1 -DeploymentType "Uninstall" -AppName "7-Zip"
+
+# Example to uninstall Oracle VirtualBox package
+.\Deploy-Application.ps1 -DeploymentType "Uninstall" -AppName "Oracle VirtualBox"
+
+
 License
 This project is licensed under the MIT License.
